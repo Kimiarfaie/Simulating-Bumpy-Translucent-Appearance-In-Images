@@ -12,3 +12,5 @@ The following specular highlight detection method was implemented using Matlab f
   tags = {TMI},
 }
 ```
+Code is from: 
+https://github.com/fu123456/SHDNet
