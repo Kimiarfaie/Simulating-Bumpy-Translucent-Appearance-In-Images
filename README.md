@@ -10,6 +10,9 @@ The primary objective of this study is to explore how surface properties, such a
 1. Create a dataset: Using the method proposed by Manabe et al. [1], we modulate bumpiness levels in images to create a dataset with varying bumpiness levels. In some cases, specular highlights are preserved to enhance translucent appearance using the code provided in [2].
 2. Conducted psychophysical experiments: Evaluate Naturalness, Bumpiness, and Translucency of images to study their interactions. The objective scores are provided under objective scores.
 
+# Note
+modulation_spectrum.py modulates images in varying levels of bumpiness, for preserving the highlights use BumpinessModulation_highlightspreserved.py, the script applies modulation to images that their mask is provided in masks folder.
+
 # References
 1. Manabe, Yusuke & Tanaka, Midori & Horiuchi, Takahiko. (2022). Bumpy Appearance Editing of Object Surfaces in Digital Images. Journal of Imaging Science and Technology. 66. 050403-1. 10.2352/J.ImagingSci.Technol.2022.66.5.050403.
 2. https://github.com/fu123456/SHDNet/tree/main
